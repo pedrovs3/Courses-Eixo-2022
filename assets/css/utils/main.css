@@ -1,0 +1,47 @@
+.banner {
+  background-image: url(../../img/banner-img.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+
+  display: flex;
+  padding: 130px 150px;
+  align-items: flex-end;
+  justify-content: start;
+}
+
+.banner h1 {
+  z-index: 2;
+  color: white;
+  max-width: 500px;
+  font-size: 48px;
+}
+
+.banner::before {
+  content: "";
+  display: block;
+  -webkit-filter: blur(1px) brightness(0.5);
+  -moz-filter: blur(1px) brightness(0.5);
+  -ms-filter: blur(1px) brightness(0.5);
+  -o-filter: blur(1px) brightness(0.5);
+  filter: blur(1px) brightness(0.5);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 1px;
+  background: inherit;
+  z-index: 0;
+}
+
+.trending-topics {
+  margin-top: 71.3vh;
+  height: 120px;
+  background-color: white;
+  
+}
