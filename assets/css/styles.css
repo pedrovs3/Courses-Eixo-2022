@@ -1,6 +1,12 @@
 @import url(./utils/reset.css);
 @import url(./utils/header.css);
 @import url(./utils/main.css);
+@import url(./utils/variables.css);
+
+body{
+  width: 100vw;
+  min-height: 100vh;
+}
 
 .green-text {
   font-weight: bold;
